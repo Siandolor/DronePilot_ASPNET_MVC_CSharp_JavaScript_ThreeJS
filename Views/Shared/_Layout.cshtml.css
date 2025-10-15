@@ -1,0 +1,94 @@
+﻿/* ========================================================================= */
+/* STYLESHEET: _Layout.cshtml.css                                            */
+/* ========================================================================= */
+/* Global layout and navigation styling for the DronePilot MVC application.  */
+/* Linked in _Layout.cshtml to define shared UI appearance.                  */
+/* ========================================================================= */
+
+
+/* ------------------------------------------------------------------------- */
+/* NAVIGATION BRAND                                                          */
+/* ------------------------------------------------------------------------- */
+/* Ensures the brand text in the navbar wraps correctly and stays readable.  */
+a.navbar-brand {
+  white-space: normal;
+  text-align: center;
+  word-break: break-all;
+}
+
+
+/* ------------------------------------------------------------------------- */
+/* GLOBAL LINK COLOR                                                         */
+/* ------------------------------------------------------------------------- */
+/* Default link appearance across the site.                                  */
+a {
+  color: #0077cc;
+}
+
+
+/* ------------------------------------------------------------------------- */
+/* PRIMARY BUTTON                                                            */
+/* ------------------------------------------------------------------------- */
+/* Standard button style for main UI actions.                                */
+.btn-primary {
+  color: #fff;
+  background-color: #1b6ec2;
+  border-color: #1861ac;
+}
+
+
+/* ------------------------------------------------------------------------- */
+/* ACTIVE NAVIGATION ITEM (PILLS)                                            */
+/* ------------------------------------------------------------------------- */
+/* Highlights the active navigation link in the nav-pills component.         */
+.nav-pills .nav-link.active,
+.nav-pills .show > .nav-link {
+  color: #fff;
+  background-color: #1b6ec2;
+  border-color: #1861ac;
+}
+
+
+/* ------------------------------------------------------------------------- */
+/* BORDERS                                                                   */
+/* ------------------------------------------------------------------------- */
+/* Standardized border styles for layout separation.                         */
+.border-top {
+  border-top: 1px solid #e5e5e5;
+}
+
+.border-bottom {
+  border-bottom: 1px solid #e5e5e5;
+}
+
+
+/* ------------------------------------------------------------------------- */
+/* BOX SHADOWS                                                               */
+/* ------------------------------------------------------------------------- */
+/* Adds subtle depth effect for visual separation of elements.               */
+.box-shadow {
+  box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05);
+}
+
+
+/* ------------------------------------------------------------------------- */
+/* COOKIE / POLICY BANNER BUTTON                                             */
+/* ------------------------------------------------------------------------- */
+/* Adjusts font size and line height for cookie policy acceptance button.    */
+button.accept-policy {
+  font-size: 1rem;
+  line-height: inherit;
+}
+
+
+/* ------------------------------------------------------------------------- */
+/* FOOTER                                                                    */
+/* ------------------------------------------------------------------------- */
+/* Fixes footer to bottom with consistent height and spacing.                */
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  white-space: nowrap;
+  line-height: 60px;
+}
