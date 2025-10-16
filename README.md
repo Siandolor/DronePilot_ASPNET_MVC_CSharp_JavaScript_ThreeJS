@@ -129,16 +129,22 @@ https://localhost:5001
 
 ---
 
-## Author
+### Author
 **Daniel Fitz, MBA, MSc, BSc**  
 Vienna, Austria  
-Developer & Security Technologist – Post-Quantum Cryptography & Simulation
+Developer & Security Technologist — *Post-Quantum Cryptography, Blockchain/Digital Ledger & Simulation*  
+C/C++ · C# · Java · Python · Visual Basic · ABAP · JavaScript/TypeScript
+
+International Accounting · Macroeconomics & International Relations · Physiotherapy · Computer Sciences  
+Former Officer of the German Federal Armed Forces
 
 ---
 
-## License
-MIT License — free for educational and research use.  
+### License
+**MIT License** — free for educational and research use.  
 Attribution required for redistribution or commercial adaptation.
+
+---
 
 > “We don’t control the drone.  
 > We control the perspective it offers.”  
